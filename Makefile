@@ -23,8 +23,7 @@ stest: stest.o
 	$(CC) -o $@ stest.o $(LDFLAGS)
 
 clean:
-	rm -rf src pkg
-	rm -f dmenu stest $(OBJ) dmenu-$(VERSION).tar.gz *.zst
+	rm -f dmenu stest $(OBJ) dmenu-$(VERSION).tar.gz
 
 dist: clean
 	mkdir -p dmenu-$(VERSION)
