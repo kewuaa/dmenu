@@ -3,3 +3,6 @@
 *.orig
 dmenu
 stest
+/src
+/pkg
+*.zst
